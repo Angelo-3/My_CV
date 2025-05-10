@@ -28,12 +28,33 @@ nav a {
  font-weight: bold;
 }
 
+.dark-theme {
+ background-color: #121212;
+ color: #f4f4f4;
+}
+
+.dark-theme nav {
+ background-color: #222;
+}
+
+.dark-theme header {
+ background-color: #1a1a1a;
+}
+
+.dark-theme footer {
+ background-color: #111;
+}
+
 main {
  padding: 2rem;
 }
 
 section {
  margin-bottom: 2rem;
+}
+
+#exp-content {
+ display: none;
 }
 
 footer {
