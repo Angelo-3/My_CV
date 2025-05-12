@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const ageSpan = document.getElementById("age");
   if (ageSpan) {
-    ageSpan.textContent = calculateAge("2001-03-21"); 
+    ageSpan.textContent = calculateAge("2001-03-21");
   }
 });
 
