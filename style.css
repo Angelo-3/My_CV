@@ -9,6 +9,7 @@ body {
 
 .container {
  display: flex;
+ flex-wrap: wrap;
  gap: 20px;
  padding: 20px;
 }
@@ -92,4 +93,15 @@ footer {
  padding: 1rem;
  background: #222;
  color: white;
+}
+
+@media (max-width: 768px) {
+ .Container {
+  flex-direction: column;
+ }
+
+ .left-side,
+ .right-side {
+  max-width: 100%;
+ }
 }
