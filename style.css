@@ -37,7 +37,7 @@ body {
 header {
  text-align: center;
  padding: 2rem;
- background: #01526d;
+ background: #243d65;
  color: #f6f4f4;
 }
 
@@ -91,8 +91,9 @@ section {
 footer {
  text-align: center;
  padding: 1rem;
- background: #222;
+ background: #012047;
  color: white;
+ border-radius: 10px;
 }
 
 @media (max-width: 768px) {
